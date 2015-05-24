@@ -34,3 +34,8 @@
     result="$(bin/Debug/base ff 16 8)"
     [ ${result} == "377" ]
 }
+
+@test "Binary 0 to decimal 0" {
+    result="$(bin/Debug/base 0 2 10)"
+    [ ${result} == "0" ]
+}

@@ -24,7 +24,8 @@ $ make
 ## Usage
 
 `base number from_base to_base`.  `from_base` is optional, default to 10.
-For digits larger than 10, please use lowercase letters.
+For digits larger than 10, please use lowercase letters.  This program only works 
+when number is equal to or larger than zero. 
 
 Convert decimal 36 to its binary
 
